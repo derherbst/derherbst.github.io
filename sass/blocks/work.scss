@@ -1,0 +1,32 @@
+.work {
+  padding-left: 140px;
+}
+
+.work__block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 105px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.work__about {
+  width: 355px;
+  
+  p {
+    font-size: 22px;
+    line-height: 1.2;
+    text-transform:none;
+  }
+}
+
+.work__title {
+  font-size: 55px;
+  line-height: 1.1;
+  font-family: 'Bagnard', serif;
+  padding-bottom: 20px;
+}

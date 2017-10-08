@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MARTA PFEIFFER</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/jquery.slidereveal.min.js"></script>
+</head>
+<body>
+  <main class="main">
+    <section class="section section--intro">
+      <div class="section__inner">
+        <h1 id='trigger' class="section__name">Marta Pfeiffer</h1>
+        <ul class="social-wrapper section__social">
+          <li class="social-wrapper__item">Mail</li>
+          <li class="social-wrapper__item">Fb</li>
+          <li class="social-wrapper__item">Insta</li>
+        </ul>
+        <div id="hide-manually" class="section__side">
+          <span>About</span>
+        </div>
+      </div>
+    </section>
+    <section class="section section--exp">
+      <div class="section__inner">
+        <div class="exp-wrapper">
+          <div class="exp-wrapper__col">
+            <div class="exp-wrapper__block">
+              <div class="exp-wrapper__date">2009/15</div>
+              <div class="exp-wrapper__text">Moscow State University of Printing Arts</div>
+            </div>
+            <div class="exp-wrapper__block">
+              <div class="exp-wrapper__date">2013</div>
+              <div class="exp-wrapper__text">Academy of Visual Arts, Leipzig</div>
+            </div>
+            <div class="exp-wrapper__block">
+              <div class="exp-wrapper__date">2014</div>
+              <div class="exp-wrapper__text">L'officiel Russia, designer</div>
+            </div>
+          </div>
+          <div class="exp-wrapper__col">
+            <div class="exp-wrapper__block">
+              <div class="exp-wrapper__date">2015</div>
+              <div class="exp-wrapper__text">Fashionograph, designer</div>
+            </div>
+            <div class="exp-wrapper__block">
+              <div class="exp-wrapper__date">2015/2017</div>
+              <div class="exp-wrapper__text">ITK brotherhood, designer</div>
+            </div>
+            <div class="exp-wrapper__block">
+              <div class="exp-wrapper__date">2017</div>
+              <div class="exp-wrapper__text">SOZDANO, designer</div>
+            </div>
+          </div>
+        </div>
+        <div class="section__side">
+          <span>About</span>
+        </div>
+      </div>
+    </section>
+    <section id='slider' class="section section--work">
+      <div class="section__inner">
+        <div class="work">
+          <div class="work__block">
+            <div class="work__about">
+              <h2 class="work__title">ESTROUS</h2>
+              <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
+            </div>
+            <div class="work__image-wrapper">
+              <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
+            </div>
+          </div>
+          <div class="work__block">
+            <div class="work__about">
+              <h2 class="work__title">TYPOGRAPHY NAMED AFTER ME</h2>
+              <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
+            </div>
+            <div class="work__image-wrapper">
+              <img class="work__image" src="img/typography.jpg" width="554" height="398" alt="">
+            </div>
+          </div>
+          <div class="work__block">
+            <div class="work__about">
+              <h2 class="work__title">HLSTK</h2>
+              <p>The written separation into syllables is usually marked.</p>
+            </div>
+            <div class="work__image-wrapper">
+              <img class="work__image" src="img/hlstk.jpg" width="554" height="398" alt="">
+            </div>
+          </div>
+          <div class="work__block">
+            <div class="work__about">
+              <h2 class="work__title">MODERN ARHITEKTUR</h2>
+              <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
+            </div>
+            <div class="work__image-wrapper">
+              <img class="work__image" src="img/arch.png" width="554" height="398" alt="">
+            </div>
+          </div>
+          <div class="work__block">
+            <div class="work__about">
+              <h2 class="work__title">L’OFFICIEL</h2>
+              <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
+            </div>
+            <div class="work__image-wrapper">
+              <img class="work__image" src="img/lofficiel.jpg" width="554" height="398" alt="">
+            </div>
+          </div>
+          <div class="work__block">
+            <div class="work__about">
+              <h2 class="work__title">ITK</h2>
+              <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
+            </div>
+            <div class="work__image-wrapper">
+              <img class="work__image" src="img/itk.gif" width="554" height="398" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="section__side section__side--work">
+          <span>Work</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script>
+//    $('#slider').slideReveal({
+//  trigger: $("#trigger"),
+//      position: "right",
+//      width: "90%"
+//});
+    
+    var sample1 = $("#slider").slideReveal({
+          trigger: $("#trigger"),
+          position: "right",
+          width: "90%"
+        })
+    $("#hide-manually").click(function(){
+          sample1.slideReveal("hide");
+        });
+  </script>
+</body>
+</html>
