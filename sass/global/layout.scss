@@ -1,18 +1,10 @@
 html {
-  font-size: 16px;
-//  line-height: 1.25rem;
-  font-weight: 400;
+  @include font(20px, 1.25);
 }
 
 body {
   margin: 0px;
   padding: 0px;
-  min-width: 320px;
-  margin: 0 auto;
-  font-family: 'Circe_bold', sans-serif;
-//  background-color: $black;
-//  color: $lightPink;
-  text-transform: uppercase;
 }
 
 h1,
@@ -27,20 +19,6 @@ p {
   margin: 0;
 }
 
-b {
-  display: block;
-}
-
-fieldset {
-  border: none;
-  padding: 0;
-}
-
-input[type=checkbox], input[type=radio] {
-  box-sizing: border-box;
-  padding: 0;
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -50,19 +28,16 @@ ul {
 button {
   padding: 0;
   cursor: pointer;
+  border: none;
+  background: none;
 }
 
 a {
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 img {
   height: auto;
-}
-
-nav {
-//  position: absolute;
-//  left: 0;
-//  right: 0;
-  cursor: pointer;
 }

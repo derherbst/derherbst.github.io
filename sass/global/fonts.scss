@@ -1,22 +1,19 @@
 @font-face {
-    font-family: Circebold;
-    src: url("../../fonts/Circe-Bold.woff") format("woff"), /* Modern Browsers */
-         url("fonts/Circe-Bold.ttf")  format("truetype"); /* Safari, Android, iOS */
-}
+    font-family: FuturaPTLight;
+    src: url('../../fonts/FuturaPTLight.otf');
+  }
 
 @font-face {
-    font-family: Circebold;
-    src: url("../../fonts/Circe-Regular.woff") format("woff"), /* Modern Browsers */
-         url("fonts/Circe-Regular.ttf")  format("truetype"); /* Safari, Android, iOS */
-}
+    font-family: FuturaPTBold;
+    src: url('../../fonts/FuturaPTBold.otf');
+  }
 
 @font-face {
-    font-family: CirceEbold;
-    src: url("../../fonts/Circe-ExtraBold.woff") format("woff"), /* Modern Browsers */
-         url("fonts/Circe-ExtraBold.ttf")  format("truetype"); /* Safari, Android, iOS */
-}
+    font-family: FuturaPT;
+    src: url('../../fonts/FuturaPTBook.otf');
+  }
 
 @font-face {
-    font-family: Bagnard;
-    src: url("../../fonts/Bagnard.otf") format("opentype");
-}
+    font-family: FuturaPTDemi;
+    src: url('../../fonts/FuturaPTDemi.otf');
+  }
