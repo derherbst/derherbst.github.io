@@ -11,7 +11,7 @@
 
 /* Portrait */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   body,
   html {
     width: 100%;
@@ -86,7 +86,7 @@
 
 /* Landscape */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (min-aspect-ratio: 4/3) {
+@media only screen and (min-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (min-aspect-ratio: 4/3) {
   body,
   html {
     width: 100%;
@@ -163,7 +163,7 @@
 
 /* ----------- iPhone 6 ----------- */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+@media only screen and (min-device-width: 667px) and (orientation: portrait) {
   body,
   html {
     width: 100%;
@@ -229,7 +229,7 @@
 
 /* Landscape */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen and (min-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   body,
   html {
     width: 100%;
@@ -309,7 +309,7 @@
 
 /* Portrait */
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+@media only screen and (min-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   body,
   html {
     width: 100%;
@@ -373,7 +373,7 @@
 
 /* Landscape */
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+@media only screen and (min-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   body,
   html {
     width: 100%;
@@ -457,7 +457,7 @@
 
 /* ----------- iPad ----------- */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {
   body,
   html {
     width: 100%;
