@@ -309,7 +309,7 @@
 
 /* Portrait */
 
-@media only screen and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+@media only screen and (min-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   body,
   html {
     width: 100%;
@@ -373,7 +373,7 @@
 
 /* Landscape */
 
-@media only screen and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+@media only screen and (min-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   body,
   html {
     width: 100%;
