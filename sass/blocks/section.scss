@@ -1,0 +1,24 @@
+/*section.scss*/
+
+.section {
+  height: 100vh;
+  position: relative;
+  background-color: $black;
+  &--home {
+    background: url('../img/storge-bg-2.jpg') center center no-repeat #000;
+    background-size: cover;
+  }
+  &--trailer  {
+    padding-top: 25vh;
+  }
+  &--photos {
+    padding: 12vh 7vh 7vh 7vh;
+  }
+  &--cast {
+    background: url('../img/cast-bg.jpg') center center no-repeat #000;
+    background-size: cover;    
+  }
+  &--contacts {
+    padding-top: 47vh;
+  }
+}

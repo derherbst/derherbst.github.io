@@ -1,0 +1,1 @@
+$('.photos__inner').slick();

@@ -1,0 +1,26 @@
+{
+  "name": "storge-main",
+  "version": "1.0.0",
+  "description": "Storgefilm",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp style",
+    "start": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derherbst/storge-main.git"
+  },
+  "author": "Gerbst Georgy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derherbst/storge-main/issues"
+  },
+  "homepage": "https://github.com/derherbst/storge-main#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-refresh": "^1.1.0",
+    "gulp-watch": "^4.3.11"
+  }
+}

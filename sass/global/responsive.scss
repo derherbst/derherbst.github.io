@@ -1,0 +1,507 @@
+// responsive.scss
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 12px;
+  }
+  .section--home {
+    background: url(../img/storge-bg-2.jpg) 72% center no-repeat #000 !important;
+    background-size: cover;
+  }
+  .section--photos {
+    height: 100vh;
+    padding-bottom: 5vh;
+  }
+  .section--trailer {
+    height: 100vh;
+    padding-top: 5vh;
+  }
+  .trailer {
+    margin-top: 25vh;
+  }
+  .page-header__title {
+    font-size: 54px;
+    letter-spacing: 15px;
+  }
+  .main-nav__list li:last-child>a {
+    margin-right: 0;
+  }
+  .main-nav__link {
+    font-size: 13px;
+    padding: 0px 7px;
+  }
+  .photos__inner,
+  .photos {
+    width: 100%;
+  }
+  .slick-next {
+    right: -24px;
+  }
+  .slick-prev {
+    left: -24px;
+  }
+  .page-header {
+    width: 100%;
+  }
+  .cast__inner {
+    width: auto;
+    margin-right: 15px;
+  }
+  .cast__wrapper {
+    display: block;
+  }
+  .cast__role {
+    font-size: 12px;
+    margin-right: 0.3em;
+    margin-bottom: 0;
+  }
+  .cast__name {
+    font-size: 11px;
+    margin-bottom: 1.5em;
+  }
+  .posters__inner {}
+  .posters__image-wrapper {
+    margin-right: 0;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (min-aspect-ratio: 4/3) {
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 12px;
+  }
+  .section--home {
+    background: url(../img/storge-bg-2.jpg) 72% center no-repeat #000 !important;
+    background-size: cover;
+  }
+  .section--photos {
+    height: 100vh;
+    padding-bottom: 5vh;
+  }
+  .section--trailer {
+    height: 100vh;
+    padding-top: 0vh;
+    margin-bottom: 20vh;
+  }
+  .trailer {
+    margin-bottom: 10vh;
+  }
+  .page-header__title {
+    font-size: 54px;
+    letter-spacing: 15px;
+  }
+  .main-nav__list li:last-child>a {
+    margin-right: 0;
+  }
+  .main-nav__link {
+    font-size: 13px;
+    padding: 0px 7px;
+  }
+  .photos__inner,
+  .photos {
+    width: 100%;
+  }
+  .slick-next {
+    right: -24px;
+  }
+  .slick-prev {
+    left: -24px;
+  }
+  .page-header {
+    width: 100%;
+  }
+  .cast__inner {
+    width: auto;
+    margin-right: 15px;
+  }
+  .cast__wrapper {
+    display: flex;
+  }
+  .cast__role {
+    font-size: 12px;
+    margin-right: 0.3em;
+    margin-bottom: 0;
+  }
+  .cast__name {
+    font-size: 11px;
+    margin-bottom: 0.5em;
+  }  
+  .posters__image-wrapper {
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 210px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
+/* ----------- iPhone 6 ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 12px;
+  }
+  .section--home {
+    background: url(../img/storge-bg-2.jpg) 72% center no-repeat #000;
+    background-size: cover;
+  }
+  .section--photos {
+    height: 100vh;
+    padding: 25vh 0;
+  }
+  .section--trailer {
+    height: 100vh;
+    padding-top: 5vh;
+  }
+  .trailer {
+    margin-top: 25vh;
+  }
+  .page-header__title {
+    font-size: 54px;
+    letter-spacing: 15px;
+  }
+  .main-nav__link {
+    font-size: 13px;
+    padding: 0px 5px;
+  }
+  .photos__inner,
+  .photos {
+    width: 100%;
+  }
+  .slick-next {
+    right: -24px;
+  }
+  .slick-prev {
+    left: -24px;
+  }
+  .page-header {
+    width: 100%;
+  }
+  .cast__inner {
+    width: auto;
+    margin-right: 15px;
+  }
+  .cast__role {
+    font-size: 12px;
+    margin-right: 0.3em;
+  }
+  .cast__name {
+    font-size: 11px;
+  }
+  .posters__image-wrapper {
+    margin-right: 0;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 12px;
+  }
+  .section--home {
+    background: url(../img/storge-bg-2.jpg) 72% center no-repeat #000;
+    background-size: cover;
+  }
+  .section--photos {
+    height: 100vh;
+    padding-bottom: 5vh;
+  }
+  .section--trailer {
+    height: 100vh;
+    padding-top: 0vh;
+    margin-bottom: 20vh;
+  }
+  .trailer {
+    margin-bottom: 10vh;
+  }
+  .page-header__title {
+    font-size: 54px;
+    letter-spacing: 15px;
+  }
+  .main-nav__list li:last-child>a {
+    margin-right: 0;
+  }
+  .main-nav__link {
+    font-size: 13px;
+    padding: 0px 7px;
+  }
+  .photos__inner,
+  .photos {
+    width: 100%;
+  }
+  .slick-next {
+    right: -24px;
+  }
+  .slick-prev {
+    left: -24px;
+  }
+  .page-header {
+    width: 100%;
+  }
+  .cast__inner {
+    width: auto;
+    margin-right: 15px;
+  }
+  .cast__wrapper {
+    display: flex;
+  }
+  .cast__role {
+    font-size: 12px;
+    margin-right: 0.3em;
+    margin-bottom: 0;
+  }
+  .cast__name {
+    font-size: 11px;
+    margin-bottom: 0.5em;
+  }
+  .posters__image-wrapper {
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 210px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
+/* ----------- iPhone 6+ ----------- */
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 12px;
+  }
+  .section--home {
+    background: url(../img/storge-bg-2.jpg) 72% center no-repeat #000;
+    background-size: cover;
+  }
+  .section--photos {
+    height: 100vh;
+    padding-bottom: 5vh;
+  }
+  .section--trailer {
+    height: 100vh;
+    padding-top: 5vh;
+  }
+  .page-header__title {
+    font-size: 54px;
+    letter-spacing: 15px;
+  }
+  .main-nav__link {
+    font-size: 13px;
+    padding: 0px 7px;
+  }
+  .photos__inner,
+  .photos {
+    width: 100%;
+  }
+  .slick-next {
+    right: -24px;
+  }
+  .slick-prev {
+    left: -24px;
+  }
+  .page-header {
+    width: 100%;
+  }
+  .cast__inner {
+    width: auto;
+    margin-right: 15px;
+  }
+  .cast__role {
+    font-size: 12px;
+    margin-right: 0.3em;
+  }
+  .cast__name {
+    font-size: 11px;
+  }
+  .posters__inner {}
+  .posters__image-wrapper {
+    margin-right: 0;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 12px;
+  }
+  .section--home {
+    background: url(../img/storge-bg-2.jpg) 72% center no-repeat #000;
+    background-size: cover;
+  }
+  .section--photos {
+    height: 100vh;
+    padding-bottom: 5vh;
+  }
+  .section--trailer {
+    height: 100vh;
+    padding-top: 0vh;
+    margin-bottom: 20vh;
+  }
+  .trailer {
+    margin-bottom: 10vh;
+  }
+  .page-header__title {
+    font-size: 54px;
+    letter-spacing: 15px;
+  }
+  .main-nav__list li:last-child>a {
+    margin-right: 0;
+  }
+  .main-nav__link {
+    font-size: 13px;
+    padding: 0px 7px;
+  }
+  .photos__inner,
+  .photos {
+    width: 100%;
+  }
+  .slick-next {
+    right: -24px;
+  }
+  .slick-prev {
+    left: -24px;
+  }
+  .page-header {
+    width: 100%;
+  }
+  .cast__inner {
+    width: auto;
+    display: block;
+    margin-right: 15px;
+    height: 90vh;
+  }
+  .cast__wrapper {
+    display: flex;
+  }
+  .cast__role {
+    font-size: 12px;
+    margin-right: 0.3em;
+    margin-bottom: 0;
+  }
+  .cast__block--actors {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .cast__name {
+    font-size: 11px;
+    margin-bottom: 0.8em;
+  }
+  .posters__inner {}
+  .posters__image-wrapper {
+    margin-right: 10px;
+    margin-left: 10px;
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 270px;
+    }
+  }
+}
+
+
+/* ----------- iPad ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .section--home {
+    background: url(../img/storge-bg-2.jpg) 75% center no-repeat #000 !important;
+    background-size: cover;
+  }
+  .page-header__title {
+    font-size: 63px;
+    line-height: 1.077em;
+    font-weight: 400;
+    letter-spacing: 15px;
+  }
+  .page-header__inner {
+    text-align: center;
+    font-size: 27px;
+  }
+  .main-nav__link {
+    font-size: 27px;
+    padding: 0px 15px;
+  }
+  .section--trailer {
+    padding-top: 25vh;
+  }
+  .page-header {
+    width: auto;
+  }
+  .posters__image-wrapper {
+    margin-right: 20px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .cast__inner {    
+    width: auto;
+    margin-right: 15px;
+  }
+  .slick-next {
+    right: -27px;
+  }
+  .slick-prev {
+    left: -27px;
+  }
+}

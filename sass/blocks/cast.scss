@@ -1,0 +1,63 @@
+// cast.scss
+
+.cast__inner {  
+  height: 100vh;  
+  margin-left: 53%;
+}
+.cast__block {
+  height: auto;
+  &--actors {
+    padding-top: 10%;
+    padding-bottom: 3%;
+  }
+  &--produced {
+    padding-bottom: 15%;
+    padding-top: 3%;
+  }
+}
+
+.cast__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.cast__role {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0.7em;
+  margin-right: .5em;
+  text-transform: none;
+  flex: 0 1 auto;
+}
+
+.cast__name {
+  color: $white;
+  margin-bottom: 1em;
+  flex: 1 0 auto;
+}
+
+//.cast__block--actors {
+//  grid-area: one;
+//}
+//
+//.cast__block--director {
+//  grid-area: two;
+//}
+//
+//.cast__block--assistant {
+//  grid-area: three;
+//}
+//
+//.cast__block--photo {
+//  grid-area: four;
+//}
+//
+//.cast__block--production {
+//  grid-area: five;
+//}
+//
+//.cast__block--produced {
+//  grid-area: six;
+//}

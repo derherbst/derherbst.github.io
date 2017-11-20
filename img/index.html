@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>STORGE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/ScrollMagic.js"></script>
+</head>
+<body class="body-wrapper">
+  <section id="home" class="section section--home">
+    <header class="page-header">
+      <div class="page-header__inner">
+        <div class="page-header__intro">
+          <h1 class="page-header__title">STORGE</h1>
+          <p class="page-header__caption">29 min &#9679; drama</p>
+        </div>
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="active main-nav__link" href="#home">home</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#trailer">trailer</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#photos">photos</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#cast">cast<span>&amp;</span>crew</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#posters">posters</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </section>
+  <section id="trailer" class="section section--trailer">
+    <div class="trailer">
+      <div class="trailer__inner">
+        <iframe src="https://player.vimeo.com/video/220052464?color=c5bdb7&title=0&byline=0&portrait=0" width="960" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  <section id="photos" class="section section--photos">
+    <div class="photos">
+      <div class="photos__inner slider">
+        <div class="slider__item">
+          <img class="slider__image" src="img/2.jpg" alt="Storge" width="100%" height="auto">
+        </div>
+        <div class="slider__item">
+          <img class="slider__image" src="img/1.jpg" alt="Storge" width="100%" height="auto">
+        </div>
+        <div class="slider__item">
+          <img class="slider__image" src="img/3.jpg" alt="Storge" width="100%" height="auto">
+        </div>
+        <div class="slider__item">
+          <img class="slider__image" src="img/4.jpg" alt="Storge" width="100%" height="auto">
+        </div>
+        <div class="slider__item">
+          <img class="slider__image" src="img/5.jpg" alt="Storge" width="100%" height="auto">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="cast" class="section section--cast">
+    <div class="cast">
+      <div class="cast__inner">
+        <div class="cast__block cast__block--actors">
+          <p class="cast__role">Cast</p>
+          <p class="cast__name">Alyona Alyonkina</p>
+          <p class="cast__name">Galya Lebedinets</p>
+        </div>
+        <div class="cast__block cast__block--crew">
+          <div class="cast__wrapper">
+            <p class="cast__role">Written and Directed by</p>
+            <p class="cast__name">Ekaterina Selenkina</p>
+          </div>
+          <div class="cast__wrapper">
+            <p class="cast__role">Assistant Director</p>
+            <p class="cast__name">Anna Proshutinskaya</p>
+          </div>
+          <div class="cast__wrapper">
+            <p class="cast__role">2nd Assistant Director</p>
+            <p class="cast__name">Aysel Latifova</p>
+          </div>
+          <div class="cast__wrapper">
+            <p class="cast__role">Director of Photography</p>
+            <p class="cast__name">Alexey Kurbatov</p>
+          </div>
+          <div class="cast__wrapper">
+            <p class="cast__role">1st Assistant Camera</p>
+            <p class="cast__name">Yakov Mironchev</p>
+          </div>
+          <div class="cast__wrapper">
+            <p class="cast__role">Production Designer</p>
+            <p class="cast__name">Darya Litvinova</p>
+          </div>
+          <div class="cast__wrapper">
+            <p class="cast__role">Costumes</p>
+            <p class="cast__name">Polina Zhuravkova</p>
+          </div>
+          <div class="cast__wrapper">
+            <p class="cast__role">Sound</p>
+            <p class="cast__name">Konstantin Andzhanovskiy</p>
+          </div>
+          <div class="cast__wrapper">
+            <p class="cast__role">Editor</p>
+            <p class="cast__name">Alexander Pavlov</p>
+          </div>
+        </div>
+        <div class="cast__block cast__block--produced">
+          <p class="cast__role">Produced by</p>
+          <p class="cast__name">Ekaterina Selenkina</p>
+          <p class="cast__name">Mikhail Kaziev-Atlantov</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="posters" class="section section--posters">
+    <div class="posters">
+      <div class="posters__inner">
+        <div class="posters__image-wrapper">
+          <img class="posters__img" src="img/poster-1.jpg" width="400">
+        </div>
+        <div class="posters__image-wrapper">
+          <img class="posters__img" src="img/poster-2.jpg" width="400">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/init-slick.js"></script>
+  <script>
+    var menu_selector = ".main-nav"; // Переменная должна содержать название класса или идентификатора, обертки нашего меню.
+ 
+    function onScroll(){
+        var scroll_top = $(document).scrollTop();
+        $(menu_selector + " a").each(function(){
+            var hash = $(this).attr("href");
+            var target = $(hash);
+            if (target.position().top <= scroll_top && target.position().top + target.outerHeight() > scroll_top) {
+                $(menu_selector + " a.active").removeClass("active");
+                $(this).addClass("active");
+            } else {
+                $(this).removeClass("active");
+            }
+        });
+    }
+ 
+    $(document).ready(function () {
+
+        $(document).on("scroll", onScroll);
+
+        $("a[href^=#]").click(function(e){
+            e.preventDefault();
+
+            $(document).off("scroll");
+            $(menu_selector + " a.active").removeClass("active");
+            $(this).addClass("active");
+            var hash = $(this).attr("href");
+            var target = $(hash);
+
+            $("html, body").animate({
+                scrollTop: target.offset().top
+            }, 500, function(){
+                window.location.hash = hash;
+                $(document).on("scroll", onScroll);
+            });
+
+        });
+
+    });
+  </script>
+<script type="text/javascript">
+{
+  if (screen.width > 1170) document.write ('<script type="text/javascript" src="js/ScrollMagic-init.js" ></sc' + 'ript>');
+}
+</script>
+<!--
+  <script>
+    $(function(){
+        // Check the initial Poistion of the Sticky Header
+        var stickyHeaderTop = $('.main-nav').offset().top;
+ 
+        $(window).scroll(function(){
+                if( $(window).scrollTop() > stickyHeaderTop ) {
+                        $('.main-nav').css({position: 'fixed', top: '0px', width: '720'});
+                        $('#stickyalias').css('display', 'block');
+                } else {
+                        $('.main-nav').css({position: 'static', top: '0px', width: '720'});
+                        $('#stickyalias').css('display', 'none');
+                }
+        });
+  });
+  </script>
+-->
+</body>
+</html>

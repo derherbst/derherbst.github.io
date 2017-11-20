@@ -1,0 +1,24 @@
+// trailer.scss
+
+.trailer {
+  justify-content: center;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.trailer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player .controls {
+    bottom: 2em !important;
+    }
+   .player .sidedock {
+      top: 1em !important;
+  }
+  .player .title {
+    top: 1em !important;
+  }

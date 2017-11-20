@@ -1,10 +1,7 @@
-$black: #000;
-$greyLight: #f1f2f4;
-$grey: #999;
+$width: 1200px;
+
+$lightPink: rgb(197, 189, 183);
+//$lightPink: rgba(255, 255, 255, .6);
+$lightPink-border: 2px dotted $lightPink;
 $white: #fff;
-//
-//$aqua-border: 2px solid $aqua;
-//$aqua-border-thin: 1px solid $aqua;
-//$grey-border: 2px solid $grey;
-//$grey-border-thin: 1px solid $greyLight;
-//$greyDarker-border-thin: 1px solid #ededed;
+$black: #000;
