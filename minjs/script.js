@@ -1,0 +1,1 @@
+"use strict";function like(i){console.log("Hi!")}var dno=123;like(2);

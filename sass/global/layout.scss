@@ -1,39 +1,18 @@
-/* layout.scss */
-
-@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700');
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC');
-
 html {
   font-size: 16px;
 //  line-height: 1.25rem;
   font-weight: 400;
 }
 
-//.section {
-//  height: 100vh;
-//  overflow: hidden;
-//}
-//.section > * {
-//  height: 200%;
-//  position: relative;
-//  // top: -100%;
-//}
-
 body {
   margin: 0px;
   padding: 0px;
-  min-width: 320px;   
+  min-width: 320px;
   margin: 0 auto;
-  font-family: 'Quattrocento Sans', sans-serif; //!! //
-  font-family: 'Alegreya Sans SC', sans-serif; //!! //
-  background-color: $black;
-  color: $lightPink;
-  text-transform: uppercase;
-}
-
-body,html {
-  width: 100%;
-  overflow-x: hidden !important;
+  font-family: 'Circe_bold', sans-serif;
+  color: #212121;
+  position: relative;
+  background: #f9c0a7;
 }
 
 h1,
@@ -82,8 +61,5 @@ img {
 }
 
 nav {
-//  position: absolute;
-//  left: 0;
-//  right: 0;
   cursor: pointer;
 }

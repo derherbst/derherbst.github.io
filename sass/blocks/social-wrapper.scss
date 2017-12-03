@@ -1,0 +1,30 @@
+.social-wrapper {
+  @include mobile {
+    &--mobile {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      padding-right: 10px;
+    }
+  }
+}
+
+.social-wrapper__item {
+  display: inline-block;
+  font-size: 77px;
+  line-height: 79px;
+  font-family: 'Bagnard', serif;
+  margin-right: 65px;
+  text-transform: capitalize;
+  @include mobile {
+    font-size: 28px;
+    line-height: 1.9;
+    margin-right: 0;
+  }
+}
+
+.social-wrapper__link {
+  text-decoration: none;
+  color: #212121;
+}

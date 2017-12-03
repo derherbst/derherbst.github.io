@@ -1,10 +1,28 @@
-@mixin font($fs, $lh, $fw) {
-  font-size: $fs;
-  line-height: $lh;
-  font-weight: $fw;
+//@mixin font($fs, $lh, $fw) {
+//  font-size: $fs;
+//  line-height: $lh;
+//  font-weight: $fw;
+//}
+//
+//@mixin on-center() {
+//  width: $width;
+//  margin: 0 auto;
+//}
+
+@mixin mobile {
+  @media (max-width: $mobile-width) {
+    @content
+  }
 }
 
-@mixin on-center() {
-  width: $width;
-  margin: 0 auto;
+@mixin tablet {
+  @media (max-width: $tablet-width) {
+    @content
+  }
+}
+
+@mixin desktop {
+  @media (max-width: $desktop-width) {
+    @content
+  }
 }

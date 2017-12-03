@@ -1,0 +1,8 @@
+.panel {
+  position: relative;
+  z-index: 1;
+  will-change: transform;
+  min-height: 100vh;
+  transition: right 400ms;
+//  transform: translate3d(-85%, 0px, 0px);
+}

@@ -1,5 +1,9 @@
-// body-wrapper
+@media only screen and (min-width: 320px) {
+  .body-wrapper {
+    width: 320px;
+  }
+}
 
 .body-wrapper {
-  
+  width: 100%;
 }

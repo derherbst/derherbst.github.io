@@ -1,0 +1,19 @@
+.is-opened {
+  display: block;
+  position: fixed;
+  right: 0;
+  width: calc(100% - 105px);
+  transform: translateX(0);
+  transition: right 600ms;
+}
+
+.is-opened__main {
+  position: fixed;
+  right: calc(100% - 105px);
+  transition: right 600ms;
+  transform: translateX(0);
+}
+
+.is-showed {
+  
+}

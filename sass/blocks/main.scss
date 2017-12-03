@@ -1,0 +1,26 @@
+.main {
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+  width: calc(100% - 105px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  transition: right 400ms;
+  right: 0;
+}
+
+.main__inner {
+  height: 100vh;
+  width: calc(100% - 212px);
+  position: absolute;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  @include mobile {
+    width: calc(100% - 65px);
+  }
+}
