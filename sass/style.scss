@@ -1,6 +1,7 @@
 @import "normalize.scss";
 @import "variables.scss";
 @import "mixins.scss";
+@import "functions.scss";
 @import "global/layout.scss";
 @import "global/fonts.scss";
 
@@ -12,3 +13,4 @@
 @import "blocks/exp-wrapper.scss";
 @import "blocks/work.scss";
 @import "blocks/is-opened.scss";
+@import "blocks/slider.scss";

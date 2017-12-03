@@ -9,16 +9,18 @@
 <!--  <script src="js/jquery-3.2.1.slim.min.js"></script>-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script defer src="js/jquery.flexslider.js"></script>
+  <script defer src="js/flexslider-init.js" defer></script>
 <!--  <script src="js/scotchPanels.js"></script>-->
 <!--  <script src="js/jquery.slidereveal.min.js"></script>-->
 <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>-->
+
 </head>
 <body>
   <div class="body-wrapper">
   <main id="panel" class="main panel"> <!--class "main"-->
     <div class="main__inner">
       <section class="section section--intro">
-        <div class="section__inner">
+        <div class="section__inner section__inner--main">
           <h1 class="section__name">Marta Pfeiffer</h1>
           <ul class="social-wrapper section__social">
             <li class="social-wrapper__item">
@@ -100,80 +102,50 @@
             <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
           </div>
           <div class="slider">
-          <div class="flexslider">
-          <ul class="work__image-wrapper slides">
-            <li>
-              <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
-            </li>
-            <li>
-              <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
-            </li>
-          </ul>
-          </div>
-          <ul class="custom-navigation">
-            <li>
-              <a href="#" class="flex-prev"></a>
-            </li>
-            <li>
-              <a href="#" class="flex-next"></a>
-            </li>
-          </ul>
+            <div class="flexslider" id="flex-1">
+            <ul class="work__image-wrapper slides">
+              <li>
+                <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
+              </li>
+              <li>
+                <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
+              </li>
+            </ul>
+            </div>
+            <ul class="custom-navigation">
+              <li>
+                <a href="#" class="flex-prev"></a>
+              </li>
+              <li>
+                <a href="#" class="flex-next"></a>
+              </li>
+            </ul>
           </div>
         </div>
-        <style>
-          .slider {
-  position: relative;
-            width: 554px;
-}
-
-.flexslider {
-  position: relative;
-  min-height: 280px;
-}
-
-.custom-navigation {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.custom-navigation a {
-  width: 30px;
-  height: 30px;
-  display: block;
-  position: absolute;
-  top: 50%;
-  z-index: 10;
-  cursor: pointer;
-}
-
-.custom-navigation .flex-prev {
-    width: 50%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: auto;
-    background: none !important;
-    cursor: url(img/prev.png), auto;
-}
-
-.custom-navigation .flex-next {
-    width: 50%;
-    height: 100%;
-    top: 0;
-    left: auto;
-    right: 0;
-    background: none !important;
-    cursor: url(img/next.png) 50 0, auto;
-}
-        </style>
         <div class="work__block">
           <div class="work__about">
             <h2 class="work__title">TYPO<span>-</span><br>GRAPHY NAMED AFTER ME</h2>
             <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
           </div>
-          <div class="work__image-wrapper">
-            <img class="work__image" src="img/typography.jpg" width="554" height="398" alt="">
+          <div class="slider">
+            <div class="flexslider" id="flex-2">
+            <ul class="work__image-wrapper slides">
+              <li>
+                <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
+              </li>
+              <li>
+                <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
+              </li>
+            </ul>
+            </div>
+            <ul class="custom-navigation">
+              <li>
+                <a href="#" class="flex-prev"></a>
+              </li>
+              <li>
+                <a href="#" class="flex-next"></a>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="work__block">
@@ -181,8 +153,10 @@
             <h2 class="work__title">HLSTK</h2>
             <p>The written separation into syllables is usually marked.</p>
           </div>
-          <div class="work__image-wrapper">
-            <img class="work__image" src="img/hlstk.jpg" width="554" height="398" alt="">
+          <div class="slider">
+            <div class="work__image-wrapper">
+              <img class="work__image" src="img/hlstk.jpg" width="554" height="398" alt="">
+            </div>
           </div>
         </div>
         <div class="work__block">
@@ -190,8 +164,10 @@
             <h2 class="work__title">MODERN ARHI<span>-</span><br>TEKTUR</h2>
             <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
           </div>
-          <div class="work__image-wrapper">
-            <img class="work__image" src="img/arch.png" width="554" height="398" alt="">
+          <div class="slider">
+            <div class="work__image-wrapper">
+              <img class="work__image" src="img/arch.png" width="554" height="398" alt="">
+            </div>
           </div>
         </div>
         <div class="work__block">
@@ -199,8 +175,10 @@
             <h2 class="work__title">L’OFFICIEL</h2>
             <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
           </div>
-          <div class="work__image-wrapper">
-            <img class="work__image" src="img/lofficiel.jpg" width="554" height="398" alt="">
+          <div class="slider">
+            <div class="work__image-wrapper">
+              <img class="work__image" src="img/lofficiel.jpg" width="554" height="398" alt="">
+            </div>
           </div>
         </div>
         <div class="work__block">
@@ -208,8 +186,10 @@
             <h2 class="work__title">ITK</h2>
             <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
           </div>
-          <div class="work__image-wrapper">
-            <img class="work__image" src="img/itk.gif" width="554" height="398" alt="">
+          <div class="slider">
+            <div class="work__image-wrapper">
+              <img class="work__image" src="img/itk.gif" width="554" height="398" alt="">
+            </div>
           </div>
         </div>
       </div>
@@ -236,18 +216,21 @@
 //      body.style.transform = 'translateX(0%)';
     });
   </script>
-  <script type="text/javascript">
-    $(window).load(function(){
-      $('.flexslider').flexslider({
+  <script>
+    $(window).load(function() {
+      $('#flex-1').flexslider({
         animation: "slide",
-        controlNav: false,
         controlsContainer: $(".custom-controls-container"),
         customDirectionNav: $(".custom-navigation a"),
-        prevText: "Prous",
-        nextText: "Next",  
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
+        controlNav: false,
+        slideshow: false
+      });
+      $('#flex-2').flexslider({
+        animation: "slide",
+        controlsContainer: $(".custom-controls-container"),
+        customDirectionNav: $(".custom-navigation a"),
+        controlNav: false,
+        slideshow: false
       });
     });
   </script>

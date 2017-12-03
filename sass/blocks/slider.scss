@@ -1,0 +1,48 @@
+.slider {
+  position: relative;
+  width: (554px/951px*100%);
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.flexslider {
+  position: relative;
+  min-height: 280px;
+}
+
+.custom-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.custom-navigation a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.custom-navigation .flex-prev {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: auto;
+    background: none !important;
+    cursor: url(../../img/prev.png), auto;
+}
+
+.custom-navigation .flex-next {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: auto;
+    right: 0;
+    background: none !important;
+    cursor: url(../../img/next.png) 50 0, auto;
+}
