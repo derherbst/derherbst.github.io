@@ -5,6 +5,9 @@
   width: calc(100% - 105px);
   transform: translateX(0);
   transition: right 600ms;
+  @include mobile {
+    width: calc(100% - 37px);
+  }
 }
 
 .is-opened__main {
@@ -12,6 +15,9 @@
   right: calc(100% - 105px);
   transition: right 600ms;
   transform: translateX(0);
+  @include mobile {
+    right: calc(100% - 37px);
+  }
 }
 
 .is-showed {

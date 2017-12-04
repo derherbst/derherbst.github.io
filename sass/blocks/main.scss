@@ -8,6 +8,9 @@
   flex-wrap: nowrap;
   transition: right 400ms;
   right: 0;
+  @include mobile {
+    width: calc(100% - 37px);
+  }
 }
 
 .main__inner {
@@ -21,6 +24,6 @@
     display: none;
   }
   @include mobile {
-    width: calc(100% - 65px);
+    width: calc(100% - 55px);
   }
 }
