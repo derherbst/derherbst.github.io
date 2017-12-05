@@ -1,6 +1,6 @@
 .work {
-//  position: absolute;
-//  right: 0;
+  position: absolute;
+  left: 0;
   overflow-x: hidden;
   overflow-y: scroll;
   padding-left: 100px;
@@ -8,6 +8,14 @@
   box-sizing: content-box;
   &::-webkit-scrollbar {
     display: none;
+  }
+  @include tablet {
+    &::-webkit-scrollbar {
+      display: block;
+    }
+    position: static;
+    overflow-x: visible;
+    overflow-y: scroll;
   }
 }
 

@@ -23,7 +23,10 @@
   &::-webkit-scrollbar {
     display: none;
   }
-  @include mobile {
+  @include tablet {
     width: calc(100% - 55px);
+    &::-webkit-scrollbar {
+      display: block;
+    }
   }
 }
