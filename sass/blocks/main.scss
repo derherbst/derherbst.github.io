@@ -9,7 +9,7 @@
   transition: right 400ms;
   right: 0;
   @include mobile {
-    width: calc(100% - 37px);
+    width: calc(100% - 36px);
   }
 }
 
@@ -24,9 +24,7 @@
     display: none;
   }
   @include tablet {
-    width: calc(100% - 55px);
-    &::-webkit-scrollbar {
-      display: block;
-    }
+    width: calc(100% - 72px);
+    padding-left: 38px;
   }
 }

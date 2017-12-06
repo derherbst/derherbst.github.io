@@ -10,7 +10,6 @@
     width: calc(100% - 36px);
     padding-left: 36px;
     -webkit-overflow-scrolling: touch;
-    background-color: aqua;
   }
 }
 
@@ -20,7 +19,7 @@
   transition: right 600ms;
   transform: translateX(0);
   @include tablet {
-    right: calc(100% - 78px);
+    right: calc(100% - 72px);
     -webkit-overflow-scrolling: touch;
   }
 }
