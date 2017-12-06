@@ -863,7 +863,10 @@ nav {
   @media (max-width: 768px) {
     .is-opened {
       width: calc(100% - 36px);
-      padding-left: 36px; } }
+      padding-left: 36px;
+      -webkit-transform: translate3d(0, 0, 0);
+      -webkit-backface-visibility: hidden;
+      -webkit-perspective: 1000; } }
 
 .is-opened__main {
   position: fixed;
