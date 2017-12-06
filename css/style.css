@@ -862,6 +862,7 @@ nav {
   transition: right 600ms; }
   @media (max-width: 768px) {
     .is-opened {
+      background-color: aqua;
       width: calc(100% - 36px);
       padding-left: 36px;
       -webkit-transform: translate3d(0, 0, 0);
