@@ -577,7 +577,8 @@ nav {
       .section--work {
         padding-left: 0;
         padding-right: 34px;
-        right: calc(-100% + 37px); } }
+        right: calc(-100% + 37px);
+        -webkit-overflow-scrolling: touch; } }
 
 .section__inner {
   padding-left: 50px;
@@ -861,7 +862,9 @@ nav {
   @media (max-width: 768px) {
     .is-opened {
       width: calc(100% - 36px);
-      padding-left: 36px; } }
+      padding-left: 36px;
+      -webkit-overflow-scrolling: touch;
+      background-color: aqua; } }
 
 .is-opened__main {
   right: calc(100% - 105px);
@@ -871,7 +874,8 @@ nav {
           transform: translateX(0); }
   @media (max-width: 768px) {
     .is-opened__main {
-      right: calc(100% - 78px); } }
+      right: calc(100% - 78px);
+      -webkit-overflow-scrolling: touch; } }
 
 .slider {
   position: relative;
