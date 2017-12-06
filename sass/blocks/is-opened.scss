@@ -5,8 +5,9 @@
   width: calc(100% - 105px);
   transform: translateX(0);
   transition: right 600ms;
-  @include mobile {
-    width: calc(100% - 37px);
+  @include tablet {
+    width: calc(100% - 36px);
+    padding-left: 36px;
   }
 }
 
@@ -15,7 +16,7 @@
   right: calc(100% - 105px);
   transition: right 600ms;
   transform: translateX(0);
-  @include mobile {
+  @include tablet {
     right: calc(100% - 37px);
   }
 }

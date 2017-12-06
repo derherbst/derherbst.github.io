@@ -38,6 +38,9 @@
       padding-left: 0;
       padding-right: 34px;
       right: calc(-100% + 37px);
+      -webkit-transform: translateZ(0);
+      -webkit-backface-visibility: hidden;
+      -webkit-perspective: 1000;
     }
   }
 }
@@ -53,12 +56,12 @@
     overflow: hidden;
   }
   @include tablet {
-    padding-left: 19px;
-    &--work {
-      padding-left: 0;
-      overflow: visible;
-      position: static;
-    }
+    padding-left: 0;
+//    &--work {
+//      padding-left: 0;
+//      overflow: visible;
+//      position: static;
+//    }
   }
 }
 
@@ -129,7 +132,7 @@
     line-height: 54px;
     width: 30px;
     &--work {
-      width: 35px;
+      width: 36px;
     }
   }
 }
