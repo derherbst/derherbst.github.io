@@ -10,12 +10,7 @@
     display: none;
   }
   @include tablet {
-//    &::-webkit-scrollbar {
-//      display: block;
-//    }
     position: static;
-//    overflow-x: visible;
-//    overflow-y: scroll;
     padding-left: 0;
   }
 }

@@ -12,7 +12,7 @@
     position: relative;
   }
   &--work {
-    position: absolute;
+    position: fixed;
     background: #212121;
     display: flex;
     flex-direction: row;
@@ -21,8 +21,9 @@
     z-index: 1111;
     height: 100vh;
     top: 0;
-    right: calc(-100% + 105px);
-    transition: right 400ms;
+    right: -100%;
+    transform: translateX(-105px);
+    transition: all 500ms ease;
     padding-left: 105px;
   }
   @include tablet {
@@ -37,7 +38,8 @@
     &--work {
       padding-left: 0;
       padding-right: 34px;
-      right: calc(-100% + 36px);
+      transform: translateX(-36px);
+//      right: calc(-100% + 36px);
       -webkit-overflow-scrolling: touch;
     }
   }

@@ -478,7 +478,10 @@ nav {
 .body-wrapper {
   width: 100%;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  right: 0;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease; }
 
 .panel {
   position: relative;
@@ -545,7 +548,7 @@ nav {
             align-items: stretch;
     position: relative; }
   .section--work {
-    position: absolute;
+    position: fixed;
     background: #212121;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -561,9 +564,11 @@ nav {
     z-index: 1111;
     height: 100vh;
     top: 0;
-    right: calc(-100% + 105px);
-    -webkit-transition: right 400ms;
-    transition: right 400ms;
+    right: -100%;
+    -webkit-transform: translateX(-105px);
+            transform: translateX(-105px);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
     padding-left: 105px; }
   @media (max-width: 768px) {
     .section {
@@ -576,7 +581,8 @@ nav {
       .section--work {
         padding-left: 0;
         padding-right: 34px;
-        right: calc(-100% + 36px);
+        -webkit-transform: translateX(-36px);
+                transform: translateX(-36px);
         -webkit-overflow-scrolling: touch; } }
 
 .section__inner {
@@ -850,29 +856,19 @@ nav {
     width: 100%; } }
 
 .is-opened {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: calc(100% - 105px);
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: right 600ms;
-  transition: right 600ms; }
+  right: calc(0% - 105px);
+  width: calc(100% - 105px); }
   @media (max-width: 768px) {
     .is-opened {
       width: calc(100% - 36px);
+      right: calc(0% - 36px);
       padding-left: 36px;
       -webkit-overflow-scrolling: touch; } }
 
-.is-opened__main {
-  right: calc(100% - 105px);
-  -webkit-transition: right 600ms;
-  transition: right 600ms;
-  -webkit-transform: translateX(0);
-          transform: translateX(0); }
+.is-opened__body {
+  right: calc(100% - 210px); }
   @media (max-width: 768px) {
-    .is-opened__main {
+    .is-opened__body {
       right: calc(100% - 72px);
       -webkit-overflow-scrolling: touch; } }
 

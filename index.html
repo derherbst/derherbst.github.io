@@ -15,8 +15,8 @@
 <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>-->
 
 </head>
-<body>
-  <div class="body-wrapper">
+<body class="body-wrapper">
+
   <main id="panel" class="main panel"> <!--class "main"-->
     <div class="main__inner">
       <section class="section section--intro">
@@ -199,12 +199,12 @@
     var buttonLk = document.querySelector('.section__side--work');
     var closePopUp = document.querySelector('.section__side--about');
     var korpPopUp = document.querySelector('.section--work');
-    var body = document.querySelector('.panel');
+    var body = document.querySelector('.body-wrapper');
 
     buttonLk.addEventListener('click', function () {
 
       korpPopUp.classList.add('is-opened');
-      body.classList.add('is-opened__main');
+      body.classList.add('is-opened__body');
 //      body.style.transform = 'translateX(calc(-100% + 60px))';
 //      body.style.transition = 'right 600ms;';
     });
@@ -212,7 +212,7 @@
     closePopUp.addEventListener('click', function () {
 
       korpPopUp.classList.remove('is-opened');
-      body.classList.remove('is-opened__main');
+      body.classList.remove('is-opened__body');
 //      body.style.transform = 'translateX(0%)';
     });
   </script>
@@ -266,6 +266,6 @@
 
 </script>
 -->
-</div>
+
 </body>
 </html>

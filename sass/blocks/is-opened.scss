@@ -1,23 +1,18 @@
 .is-opened {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+  right: calc(0% - 105px);
   width: calc(100% - 105px);
-  transform: translateX(0);
-  transition: right 600ms;
   @include tablet {
     width: calc(100% - 36px);
+    right: calc(0% - 36px);
     padding-left: 36px;
     -webkit-overflow-scrolling: touch;
   }
 }
 
-.is-opened__main {
-//  position: fixed;
-  right: calc(100% - 105px);
-  transition: right 600ms;
-  transform: translateX(0);
+.is-opened__body {
+  right: calc(100% - 210px);
+//  width: calc(100% - 105px);
+//  transform: translateX(105px);
   @include tablet {
     right: calc(100% - 72px);
     -webkit-overflow-scrolling: touch;
