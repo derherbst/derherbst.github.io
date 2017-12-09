@@ -654,7 +654,8 @@ nav {
     z-index: 10000; }
   .section__side span {
     -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg); }
+            transform: rotate(-90deg);
+    color: aquamarine; }
   @media (max-width: 768px) {
     .section__side {
       font-size: 21px;
