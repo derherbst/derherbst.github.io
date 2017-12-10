@@ -656,8 +656,7 @@ nav {
     z-index: 10000; }
   .section__side span {
     -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-    color: chartreuse; }
+            transform: rotate(-90deg); }
   @media (max-width: 768px) {
     .section__side {
       font-size: 21px;
@@ -774,7 +773,6 @@ nav {
       padding-right: 0; } }
 
 .work {
-  position: absolute;
   left: 0;
   overflow-x: hidden;
   overflow-y: scroll;

@@ -103,14 +103,14 @@
           </div>
           <div class="slider">
             <div class="flexslider">
-            <ul class="work__image-wrapper slides">
-              <li>
-                <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
-              </li>
-              <li>
-                <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
-              </li>
-            </ul>
+              <ul class="work__image-wrapper slides">
+                <li>
+                  <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
+                </li>
+                <li>
+                  <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
+                </li>
+              </ul>
             </div>
             <ul class="custom-navigation">
               <li>
@@ -128,24 +128,12 @@
             <p>The written separation into syllables is usually marked by a hyphen when using English orthography.</p>
           </div>
           <div class="slider">
-            <div class="flexslider">
-            <ul class="work__image-wrapper slides">
-              <li>
-                <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
-              </li>
-              <li>
-                <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
-              </li>
-            </ul>
-            </div>
-            <ul class="custom-navigation">
-              <li>
-                <a href="#" class="flex-prev"></a>
-              </li>
-              <li>
-                <a href="#" class="flex-next"></a>
-              </li>
-            </ul>
+
+              <ul class="work__image-wrapper">
+
+                  <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
+
+              </ul>
           </div>
         </div>
         <div class="work__block">
@@ -205,67 +193,37 @@
 
       korpPopUp.classList.add('is-opened');
       body.classList.add('is-opened__body');
-//      body.style.transform = 'translateX(calc(-100% + 60px))';
-//      body.style.transition = 'right 600ms;';
     });
 
     closePopUp.addEventListener('click', function () {
 
       korpPopUp.classList.remove('is-opened');
       body.classList.remove('is-opened__body');
-//      body.style.transform = 'translateX(0%)';
     });
   </script>
   <script>
-    $(window).load(function() {
+
+    $(document).ready(function () {
       $('.flexslider').flexslider({
-        animation: "slide",
+        animation: 'slide',
         controlsContainer: $(".custom-controls-container"),
         customDirectionNav: $(".custom-navigation a"),
         controlNav: false,
         slideshow: false
       });
-//      $('#flex-2').flexslider({
-//        animation: "slide",
-//        controlsContainer: $(".custom-controls-container"),
-//        customDirectionNav: $(".custom-navigation a"),
-//        controlNav: false,
-//        slideshow: false
-//      });
     });
-  </script>
-<!--
-<script>
-  var easyPanel;
-  if(window.innerWidth < 414) {
-    easyPanel = $('#scotch-panel').scotchPanel({
-        containerSelector: 'body',
-        direction: 'right',
-        duration: 200,
-        transition: 'ease',
-        distanceX: '75%',
-        enableEscapeKey: true
-    });
-  } else {
-    easyPanel = $('#scotch-panel').scotchPanel({
-        containerSelector: 'body',
-        direction: 'right',
-        duration: 200,
-        transition: 'ease',
-        distanceX: '85%',
-        enableEscapeKey: true
-    });
-  }
-    $('.toggle-panel').click(function() {
-        easyPanel.toggle();
-        return false;
-    });
-    $('.overlay').click(function() {
-      easyPanel.close();
+    
+    $(document).ready(function () {
+      $('.flexslider2').flexslider({
+        animation: 'slide',
+        controlsContainer: $(".custom-controls-container2"),
+        customDirectionNav: $(".custom-navigation2 a"),
+        controlNav: false,
+        slideshow: false
+      });
     });
 
-</script>
--->
+  </script>
 
 </body>
 </html>
