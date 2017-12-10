@@ -480,8 +480,9 @@ nav {
   overflow: hidden;
   position: relative;
   right: 0;
-  -webkit-transition: all 700ms linear;
-  transition: all 700ms linear; }
+  -webkit-transition: right 400ms ease-in;
+  transition: right 400ms ease-in;
+  -webkit-overflow-scrolling: touch; }
 
 .panel {
   position: relative;
@@ -567,8 +568,8 @@ nav {
     right: -100%;
     -webkit-transform: translateX(-105px);
             transform: translateX(-105px);
-    -webkit-transition: all 700ms linear;
-    transition: all 700ms linear;
+    -webkit-transition: right 400ms ease-in;
+    transition: right 400ms ease-in;
     padding-left: 105px; }
   @media (max-width: 768px) {
     .section {
@@ -858,7 +859,9 @@ nav {
 
 .is-opened {
   right: calc(0% - 105px);
-  width: calc(100% - 105px); }
+  width: calc(100% - 105px);
+  -webkit-transition: right 400ms ease-out;
+  transition: right 400ms ease-out; }
   @media (max-width: 768px) {
     .is-opened {
       width: calc(100% - 36px);
@@ -867,7 +870,9 @@ nav {
       -webkit-overflow-scrolling: touch; } }
 
 .is-opened__body {
-  right: calc(100% - 210px); }
+  right: calc(100% - 210px);
+  -webkit-transition: right 400ms ease-out;
+  transition: right 400ms ease-out; }
   @media (max-width: 768px) {
     .is-opened__body {
       right: calc(100% - 72px);

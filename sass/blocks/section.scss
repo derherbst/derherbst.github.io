@@ -23,7 +23,7 @@
     top: 0;
     right: -100%;
     transform: translateX(-105px);
-    transition: all 700ms linear;
+    transition: right 400ms ease-in;
     padding-left: 105px;
   }
   @include tablet {
