@@ -655,7 +655,7 @@ nav {
   .section__side span {
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg);
-    color: aquamarine; }
+    color: blueviolet; }
   @media (max-width: 768px) {
     .section__side {
       font-size: 21px;
