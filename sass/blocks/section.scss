@@ -23,7 +23,7 @@
     top: 0;
     right: -100%;
     transform: translateX(-105px);
-    transition: all 500ms ease;
+    transition: all 700ms linear;
     padding-left: 105px;
   }
   @include tablet {
@@ -124,7 +124,7 @@
 //    position: absolute;
 //    top: 50%;
     transform: rotate(-90deg);
-    color: aquamarine;
+    color: blueviolet;
 //    width: 200px;
 //    text-align: center;
   }
