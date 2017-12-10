@@ -109,7 +109,8 @@
   &--about {
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 0;
+    height: 100vh;
   }
   &--work {
     background: #212121;

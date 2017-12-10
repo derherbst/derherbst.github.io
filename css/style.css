@@ -644,7 +644,8 @@ nav {
   .section__side--about {
     position: absolute;
     right: 0;
-    top: 50%; }
+    top: 0;
+    height: 100vh; }
   .section__side--work {
     background: #212121;
     height: 100vh;
@@ -696,7 +697,9 @@ nav {
 
 .social-wrapper__link {
   text-decoration: none;
-  color: #212121; }
+  color: #212121;
+  font-size: calc( 0.05104 * 100vw + 11.66667px);
+  letter-spacing: 3px; }
 
 .exp-wrapper {
   display: -webkit-box;
@@ -834,7 +837,8 @@ nav {
   font-size: calc( 0.04063 * 100vw + 3px);
   line-height: 1.1;
   font-family: 'Bagnard', serif;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  letter-spacing: 3px; }
   @media (max-width: 768px) {
     .work__title {
       line-height: 1.4;

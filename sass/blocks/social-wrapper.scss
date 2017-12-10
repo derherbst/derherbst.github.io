@@ -27,4 +27,6 @@
 .social-wrapper__link {
   text-decoration: none;
   color: #212121;
+  font-size: calcFluidFontSize(28, 77, 320, 1280);
+  letter-spacing: 3px;
 }
