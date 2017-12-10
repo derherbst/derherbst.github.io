@@ -480,8 +480,8 @@ nav {
   overflow: hidden;
   position: relative;
   right: 0;
-  -webkit-transition: right 400ms ease-in;
-  transition: right 400ms ease-in;
+  -webkit-transition: all 400ms ease-in;
+  transition: all 400ms ease-in;
   -webkit-overflow-scrolling: touch; }
 
 .panel {
@@ -568,8 +568,8 @@ nav {
     right: -100%;
     -webkit-transform: translateX(-105px);
             transform: translateX(-105px);
-    -webkit-transition: right 400ms ease-in;
-    transition: right 400ms ease-in;
+    -webkit-transition: all 400ms ease-in;
+    transition: all 400ms ease-in;
     padding-left: 105px; }
   @media (max-width: 768px) {
     .section {
@@ -656,7 +656,7 @@ nav {
   .section__side span {
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg);
-    color: blueviolet; }
+    color: chartreuse; }
   @media (max-width: 768px) {
     .section__side {
       font-size: 21px;
@@ -860,8 +860,8 @@ nav {
 .is-opened {
   right: calc(0% - 105px);
   width: calc(100% - 105px);
-  -webkit-transition: right 400ms ease-out;
-  transition: right 400ms ease-out; }
+  -webkit-transition: all 400ms ease-out;
+  transition: all 400ms ease-out; }
   @media (max-width: 768px) {
     .is-opened {
       width: calc(100% - 36px);
@@ -871,8 +871,8 @@ nav {
 
 .is-opened__body {
   right: calc(100% - 210px);
-  -webkit-transition: right 400ms ease-out;
-  transition: right 400ms ease-out; }
+  -webkit-transition: all 400ms ease-out;
+  transition: all 400ms ease-out; }
   @media (max-width: 768px) {
     .is-opened__body {
       right: calc(100% - 72px);
