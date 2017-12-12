@@ -129,11 +129,24 @@
           </div>
           <div class="slider">
 
-              <ul class="work__image-wrapper">
-
+            <div class="flexslider1">
+              <ul class="work__image-wrapper slides">
+                <li>
                   <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
-
+                </li>
+                <li>
+                  <img class="work__image" src="img/estrous.jpg" width="554" height="398" alt="">
+                </li>
               </ul>
+            </div>
+            <ul class="custom-navigation">
+              <li>
+                <a href="#" class="flex-prev"></a>
+              </li>
+              <li>
+                <a href="#" class="flex-next"></a>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="work__block">
@@ -203,26 +216,39 @@
   </script>
   <script>
 
-    $(document).ready(function () {
-      $('.flexslider').flexslider({
-        animation: 'slide',
-        controlsContainer: $(".custom-controls-container"),
-        customDirectionNav: $(".custom-navigation a"),
-        controlNav: false,
-        slideshow: false
-      });
-    });
+//    $(document).ready(function () {
+//      $('.flexslider').flexslider({
+//        animation: 'slide',
+//        controlsContainer: $(".custom-controls-container"),
+//        customDirectionNav: $(".custom-navigation a"),
+//        controlNav: false,
+//        slideshow: false
+//      });
+//    });
+//    
+//    $(document).ready(function () {
+//      $('.flexslider2').flexslider({
+//        animation: 'slide',
+//        controlsContainer: $(".custom-controls-container2"),
+//        customDirectionNav: $(".custom-navigation2 a"),
+//        controlNav: false,
+//        slideshow: false
+//      });
+//    });
+
     
     $(document).ready(function () {
-      $('.flexslider2').flexslider({
-        animation: 'slide',
-        controlsContainer: $(".custom-controls-container2"),
-        customDirectionNav: $(".custom-navigation2 a"),
-        controlNav: false,
-        slideshow: false
+      $('.flexslider').flexslider({
+        animation: 'fade',
+        controlsContainer: '.flexslider',
+        customDirectionNav: $(".custom-navigation a")
+//        controlNav: false
       });
+      $('.flexslider1').flexslider({animation: 'fade',controlsContainer: '.flexslider1'});
+      $('.flexslider2').flexslider({animation: 'fade',controlsContainer: '.flexslider2'});
+      $('.flexslider3').flexslider({animation: 'fade',controlsContainer: '.flexslider3'});
+      $('.flexslider4').flexslider({animation: 'fade',controlsContainer: '.flexslider4'});
     });
-
   </script>
 
 </body>

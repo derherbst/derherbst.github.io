@@ -847,7 +847,7 @@ nav {
         display: none; } }
 
 .work__image-wrapper {
-  width: 554px; }
+  width: 100%; }
   @media (max-width: 768px) {
     .work__image-wrapper {
       -webkit-box-ordinal-group: 2;
