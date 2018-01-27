@@ -82,6 +82,8 @@
 }
 
 .work__image {
+  width: 100%;
+  height: auto;
   @include tablet {
     width: 100%;
   }

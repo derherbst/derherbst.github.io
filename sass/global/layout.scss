@@ -63,3 +63,23 @@ img {
 nav {
   cursor: pointer;
 }
+
+.slick-prev,
+.slick-next {
+  width: 50%;
+  height: 100%;
+  &::before {
+    content: none;
+  }
+}
+
+.slick-next {
+  right: 0;
+  cursor: url(/img/next.png), auto;
+}
+
+.slick-prev {
+  left: 0;
+  z-index: 200;
+  cursor: url(/img/prev.png), auto;
+}
