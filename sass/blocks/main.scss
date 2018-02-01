@@ -11,6 +11,7 @@
   transition: right 400ms;
   right: 0;
   @include mobile {
+	width: 91%;
     width: -webkit-calc(100% - 36px);
     width: -moz-calc(100% - 36px);
     width: calc(100% - 36px);
@@ -30,6 +31,7 @@
     display: none;
   }
   @include tablet {
+	width: 81%;
     width: -webkit-calc(100% - 72px);
     width: -moz-calc(100% - 72px);
     width: calc(100% - 72px);
