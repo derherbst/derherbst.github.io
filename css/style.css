@@ -795,7 +795,8 @@ nav {
   padding-left: 100px;
   height: calc(100vh - 140px);
   -webkit-box-sizing: content-box;
-          box-sizing: content-box; }
+          box-sizing: content-box;
+  background-color: aqua; }
   .work::-webkit-scrollbar {
     display: none; }
   @media (max-width: 768px) {
