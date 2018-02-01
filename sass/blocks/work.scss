@@ -4,6 +4,8 @@
   overflow-x: hidden;
   overflow-y: scroll;
   padding-left: 100px;
+  height: -webkit-calc(100vh - 140px);
+  height: -moz-calc(100vh - 140px);
   height: calc(100vh - 140px);
   box-sizing: content-box;
   &::-webkit-scrollbar {

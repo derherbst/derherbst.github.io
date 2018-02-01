@@ -1,9 +1,17 @@
 .is-opened {
+  right: -webkit-calc(0% - 105px);
+  right: -moz-calc(0% - 105px);
   right: calc(0% - 105px);
+  width: -webkit-calc(100% - 105px);
+  width: -moz-calc(100% - 105px);
   width: calc(100% - 105px);
   transition: all 400ms ease-out;
   @include tablet {
+    width: -webkit-calc(100% - 36px);
+    width: -moz-calc(100% - 36px);
     width: calc(100% - 36px);
+    right: -webkit-calc(0% - 36px);
+    right: -moz-calc(0% - 36px);
     right: calc(0% - 36px);
     padding-left: 36px;
     -webkit-overflow-scrolling: touch;
@@ -11,11 +19,15 @@
 }
 
 .is-opened__body {
+  right: -webkit-calc(100% - 210px);
+  right: -moz-calc(100% - 210px);
   right: calc(100% - 210px);
   transition: all 400ms ease-out;
 //  width: calc(100% - 105px);
 //  transform: translateX(105px);
   @include tablet {
+    right: -webkit-calc(100% - 72px);
+    right: -moz-calc(100% - 72px);
     right: calc(100% - 72px);
     -webkit-overflow-scrolling: touch;
   }

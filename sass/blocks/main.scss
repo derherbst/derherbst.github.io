@@ -2,6 +2,8 @@
   overflow: hidden;
   height: 100vh;
   position: relative;
+  width: -webkit-calc(100% - 105px);
+  width: -moz-calc(100% - 105px);
   width: calc(100% - 105px);
   display: flex;
   flex-direction: row;
@@ -9,12 +11,16 @@
   transition: right 400ms;
   right: 0;
   @include mobile {
+    width: -webkit-calc(100% - 36px);
+    width: -moz-calc(100% - 36px);
     width: calc(100% - 36px);
   }
 }
 
 .main__inner {
   height: 100vh;
+  width: -webkit-calc(100% - 212px);
+  width: -moz-calc(100% - 212px);
   width: calc(100% - 212px);
   position: absolute;
   left: 0;
@@ -24,6 +30,8 @@
     display: none;
   }
   @include tablet {
+    width: -webkit-calc(100% - 72px);
+    width: -moz-calc(100% - 72px);
     width: calc(100% - 72px);
     padding-left: 38px;
   }
