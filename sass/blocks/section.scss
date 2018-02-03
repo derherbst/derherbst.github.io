@@ -25,6 +25,8 @@
     transform: translateX(-105px);
     transition: all 400ms ease-in;
     padding-left: 105px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   @include tablet {
     padding: 39px 0 39px 0px;
@@ -49,7 +51,7 @@
   position: relative;
   width: 100%;
   &--work {
-    padding-left: 0;
+    padding: 0;
     height: 100vh; 
     position: relative;
     overflow: hidden;

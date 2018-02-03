@@ -589,7 +589,9 @@ nav {
             transform: translateX(-105px);
     -webkit-transition: all 400ms ease-in;
     transition: all 400ms ease-in;
-    padding-left: 105px; }
+    padding-left: 105px;
+    padding-top: 0;
+    padding-bottom: 0; }
   @media (max-width: 768px) {
     .section {
       padding: 39px 0 39px 0px;
@@ -610,7 +612,7 @@ nav {
   position: relative;
   width: 100%; }
   .section__inner--work {
-    padding-left: 0;
+    padding: 0;
     height: 100vh;
     position: relative;
     overflow: hidden; }
@@ -791,14 +793,13 @@ nav {
       padding-right: 0; } }
 
 .work {
-  left: 0;
   overflow-x: hidden;
   overflow-y: scroll;
-  padding-left: 100px;
-  height: calc(100vh - 140px);
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  background-color: blueviolet; }
+  height: -moz-calc(100vh - 140px);
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 70px 0 70px 100px; }
   .work::-webkit-scrollbar {
     display: none; }
   @media (max-width: 768px) {
